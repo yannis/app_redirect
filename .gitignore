@@ -1,0 +1,27 @@
+.DS_Store
+.rbenv-version
+.sass-cache
+.bundle
+.rubocop.yml
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/metadata/.keep
+
+/vendor/bundle
+/coverage
+
+/db/schema.rb
+/db/schema.sql
+
+/public/system/*
+/public/assets/*
+/public/uploads/*
+/public/cache/*
+
+/config/application.yml
+
+*.sublime-project
+*.sublime-workspace
